@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sound_byte/loginScreen.dart';
+import 'package:sound_byte/chatScreen.dart';
+import 'package:sound_byte/homePage.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,6 +16,7 @@ class MyApp extends StatelessWidget {
           LoginScreen(),
           /* HomePage(),
           ChatScreen(),
+          HomePage(),
           Container(
             color: Colors.green,
           ),*/
@@ -21,7 +24,6 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
-
   bool testFunction() {
     return true;
   }
